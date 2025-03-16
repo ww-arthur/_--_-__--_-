@@ -31,8 +31,6 @@
     "nuxt": "^3.15.4",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
-    "pdfjs": "^2.5.3",
-    "pdfjs-dist": "^4.10.38",
     "pinia": "^2.0.29",
     "simplify-js": "^1.2.4",
     "three-bvh-csg": "^0.0.16",
@@ -44,7 +42,6 @@
   },
   "devDependencies": {
     "@types/pdf-parse": "^1.1.4",
-    "@types/pdfjs-dist": "^2.10.378",
     "sass-embedded": "^1.83.4",
     "vuetify": "^3.7.9",
     "@antfu/eslint-config": "^0.35.2",

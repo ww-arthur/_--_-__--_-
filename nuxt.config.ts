@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   build: {
-    transpile: ['vuetify', 'pdfjs-dist'],
+    transpile: ['vuetify'],
   },
   modules: [
     (_options, nuxt) => {
@@ -49,23 +49,9 @@ export default defineNuxtConfig({
   ssr: false,
 
   vite: {
-    optimizeDeps: {
-      include: ['pdfjs-dist'],
-    },
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            'pdf.worker': ['pdfjs-dist/build/pdf.worker.js'],
-          },
-        },
-      },
-    },
-    resolve: {
-      alias: {
-        'pdfjs-dist/build/pdf.worker.entry': 'pdfjs-dist/build/pdf.worker.js',
-      },
-    },
+
+
+
     vue: {
       template: {
         transformAssetUrls,
