@@ -1,0 +1,10 @@
+@use 'vuetify/settings' with (
+  $list-item-prepend-size: 2px,
+  $overlay-opacity: 0.4,
+  $list-indent-size: 2px,
+  $avatar-elevation: 2,
+  $app-bar-collapsed-max-width: 200px,
+  $toolbar-collapsed-max-width: 200px,
+  $body-font-family: (Inter, sans-serif),
+
+);

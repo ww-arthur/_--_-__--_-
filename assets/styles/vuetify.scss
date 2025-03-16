@@ -1,0 +1,34 @@
+html {
+  overflow-y: auto !important;
+}
+.v-btn--variant-text {
+  backdrop-filter: blur(10px);
+}
+.v-overlay--contained {
+  backdrop-filter: blur(10px);
+}
+.v-list-item--two-line {
+  .v-list-item-subtitle {
+  -webkit-line-clamp: 3 !important;
+}
+}
+
+.sticky-toolbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+.v-toolbar__content {
+  overflow: visible !important;
+}
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.v-input--density-default .v-field--variant-outlined .v-field__outline__start {
+  flex-basis: calc(var(--v-input-control-height) / 2 - 20px) !important;
+}
+.v-input--density-compact .v-field--variant-outlined .v-field__outline__start {
+  flex-basis: calc(var(--v-input-control-height) / 2 - 10px) !important;
+}
