@@ -62,7 +62,7 @@ const userHeaders = [
   { key: "category", title: "Category", lg: 1 },
 ];
 
-const { pdfToJson } = usePdfParser();
+/* const { pdfToJson } = usePdfParser();
 
 async function parseFiles(files: File[] | File | null | undefined) {
   console.log(`files: ${files}; isArray: ${Array.isArray(files)}`);
@@ -80,8 +80,8 @@ async function parseFiles(files: File[] | File | null | undefined) {
     isLoading.value = false;
   }
   console.log(files);
-}
-async function parseFiles2(files: File[] | File | null | undefined) {
+} */
+/* async function parseFiles2(files: File[] | File | null | undefined) {
   console.log(`files: ${files}; isArray: ${Array.isArray(files)}`);
   if (!files || Array.isArray(files)) return;
   const file = files;
@@ -98,7 +98,7 @@ async function parseFiles2(files: File[] | File | null | undefined) {
     isLoading.value = false;
   }
   console.log(files);
-}
+} */
 const date = ref([DateTime.now().toISO()]);
 function pickGod(color: string) {
   console.log(`Picked god with color: ${color}`);
